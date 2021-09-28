@@ -1,12 +1,11 @@
 import React from 'react';
-import 'bootstrap/dist/css/bootstrap.min.css';
 import Navbar from 'react-bootstrap/Navbar';
 
 class Footer extends React.Component {
   render() {
     return(
-      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark">
-        <Navbar.Brand>&copy; Fruits App</Navbar.Brand>
+      <Navbar collapseOnSelect expand="lg" bg="dark" variant="dark" style={{paddingLeft:"650px",width:"100%" ,position:"fixed" ,left:"0px",bottom:"0px"}}>
+        <Navbar.Brand >Issa Salman @ &copy; Fruits App</Navbar.Brand>
       </Navbar>
     );
   }
